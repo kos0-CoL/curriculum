@@ -3,9 +3,29 @@
   "name": "curriculum online gratis",
   "icons": [
     {
-      "src": "/img/logo1.png",
+      "src": "/icono/72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/icono/128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/icono/144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/icono/192x192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "/icono/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": "/?source=pwa",
