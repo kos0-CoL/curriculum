@@ -347,6 +347,21 @@
         }
       };
     </script>
+        <script>
+          // Función para cambiar el título en base al tamaño de pantalla
+          function ajustarTitulo() {
+              var titulo = document.querySelector('.h1');
+              if (window.innerWidth <= 768) {
+                  titulo.textContent = 'Herramienta de Currículums';
+              } else {
+                  titulo.textContent = 'Bienvenido a la Herramienta de Creación de Currículums';
+              }
+          }
+  
+          // Ejecutar la función cuando la página cargue y cuando se cambie el tamaño de la ventana
+          window.addEventListener('load', ajustarTitulo);
+          window.addEventListener('resize', ajustarTitulo);
+      </script>
   </body>
   <!-- Footer -->
   <footer>
